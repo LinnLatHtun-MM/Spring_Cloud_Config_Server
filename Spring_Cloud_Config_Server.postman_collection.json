@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "01f24fc5-ad24-46c0-82fb-a6c3229f1dae",
+		"name": "Spring_Cloud_Config_Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8888/actuator/default",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/actuator/default",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"actuator",
+						"default"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
